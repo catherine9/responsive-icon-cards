@@ -16,22 +16,71 @@ html {
   box-sizing: inherit;
 }
 
-.card-img {
-  width: 35%;
+.cards {
+    list-style-type: none;
+    margin: 0;
+}
+
+.card-body h2 {
+  font-weight: normal;
+}
+
+.card-img img {
+  width: 50px;
+}
+
+ul {
+  padding: 0;
+}
+
+.card {
   display: block;
 }
 
-h2 {
-  list-style-type: none;
-  font-family: sans-serif;
-  font-size: 1.5rem;
+.card-body p {
+  font-weight: normal;
 }
 
 @media only screen and (min-width: 25em) {
 
-  .img-card {
-    width: 50%;
+  .card-img img {
     display: inline-block;
+    width: 50px;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .card-img {
+    display: inline-block;
+    width: 50px;
+  }
+
+  .card {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .card-body {
+    display: inline-block;
+    position: absolute;
+    margin: .75rem;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 100%;
+    line-height: 1.5;
   }
 
 }
