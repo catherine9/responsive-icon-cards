@@ -47,6 +47,10 @@ ul {
   font-weight: normal;
 }
 
+body {
+  margin: 75em;
+}
+
 @media only screen and (min-width: 25em) {
 
   body {
@@ -54,7 +58,7 @@ ul {
   }
 
   .card-img {
-    display: inline-block;
+    display: block;
     width: 15%;
   }
 
@@ -70,6 +74,19 @@ ul {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  body {
+    margin: .75em;
+  }
+
+  .card {
+    display: inline-block;
+    width: 32%;
+  }
+
+  .card-body {
+    display: inline;
   }
 
 }
