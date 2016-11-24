@@ -31,7 +31,7 @@ html {
 
 ul {
   padding: 0;
-  margin: 1.3rem
+  margin: 1.3rem;
 }
 
 .card {
@@ -65,9 +65,8 @@ ul {
 @media only screen and (min-width: 38em) {
 
   html {
-    margin-right: .72em;
     font-size: 110%;
-    line-height: 1.3;
+    line-height: 1.4;
   }
 
 }
@@ -75,7 +74,8 @@ ul {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 110%;
+    font-size: 120%;
+    line-height: 1.5;
   }
 
 }
@@ -83,11 +83,8 @@ ul {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 100%;
-    line-height: 1.5;
+    font-size: 130%;
+    line-height: 1.6;
   }
 
-  .card-body {
-    margin: 1.3rem;
-  }
 }
