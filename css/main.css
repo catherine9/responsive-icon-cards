@@ -39,6 +39,10 @@ ul {
   padding: 0;
 }
 
+ul li {
+  text-decoration: none;
+}
+
 .card {
   display: block;
 }
@@ -50,6 +54,24 @@ ul {
 body {
   margin: .75em;
   padding: 0;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .card-img {
+    transform: translateX(40%);
+    margin: 0;
+    margin-left: 35%;
+  }
+
+  ul h2 {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  ul p{
+  margin: 0;
+
 }
 
 @media only screen and (min-width: 25em) {
