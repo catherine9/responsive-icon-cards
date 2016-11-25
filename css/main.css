@@ -30,7 +30,7 @@ html {
 }
 
 .card-img img {
-  max-width: 50px;
+  width: 50px;
   display: block;
   margin: auto;
 }
@@ -48,7 +48,8 @@ ul {
 }
 
 body {
-  margin: 75em;
+  margin: .75em;
+  padding: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -58,7 +59,7 @@ body {
   }
 
   .card-img {
-    display: block;
+    display: inline-block;
     width: 15%;
   }
 
@@ -86,7 +87,7 @@ body {
   }
 
   .card-body {
-    display: inline;
+    display: inline-block;
   }
 
 }
