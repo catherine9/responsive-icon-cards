@@ -68,6 +68,10 @@ body {
     width: 70%;
   }
 
+  .card-body p {
+    margin: 0;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -88,10 +92,6 @@ body {
 
   .card-body {
     display: inline-block;
-  }
-
-  .card-body p {
-    margin: 0;
   }
 
 }
