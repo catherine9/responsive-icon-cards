@@ -103,6 +103,7 @@ body {
 
   .card-body {
     display: inline-block;
+    margin: 0;
   }
 
 }
