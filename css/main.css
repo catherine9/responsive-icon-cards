@@ -98,13 +98,20 @@ body {
 
   .card {
     display: inline-block;
-    width: 32%;
+    width: 30%;
     vertical-align: top;
   }
 
   .card-body {
     display: block;
     margin: 0;
+  }
+
+  .card-img {
+    display: block;
+    width: 15%;
+    margin: auto;
+    padding-bottom: 1.5em;
   }
 
 }
