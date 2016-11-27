@@ -102,8 +102,8 @@ body {
   }
 
   .card-body {
-    display: inline-block;
-    margin: 0;
+    display: block;
+    margin-bottom: 0;
   }
 
 }
