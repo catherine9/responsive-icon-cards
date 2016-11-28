@@ -21,7 +21,6 @@ html {
 .cards {
   list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 .card-body h2 {
@@ -45,6 +44,8 @@ ul li {
 
 .card {
   display: block;
+  margin: -15px;
+  padding: .1em;
 }
 
 .card-body p {
@@ -55,7 +56,16 @@ ul li {
 
 body {
   margin: .75em;
-  padding: 0;
+}
+
+.card-body {
+  padding: .2em;
+  margin: 0;
+}
+
+.card-img {
+  margin-left: 0;
+  padding: .2em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -92,26 +102,25 @@ body {
     line-height: 1.4;
   }
 
-  body {
-    margin: .75em;
-  }
-
   .card {
     display: inline-block;
-    width: 30%;
-    vertical-align: top;
   }
 
   .card-body {
     display: block;
     margin: 0;
+    padding: 0;
+    text-align: left;
   }
 
   .card-img {
-    display: block;
-    width: 15%;
-    margin: auto;
+    display: inline-block;
+    margin: 0;
     padding-bottom: 1.5em;
+  }
+
+  li {
+    width: 32%;
   }
 
 }
